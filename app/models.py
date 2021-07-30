@@ -10,3 +10,5 @@ class Cart(models.Model):
     def __str__(self):
         return f"{self.item}"
 
+    # class Meta:
+    #     order_with_respect_to = 'user'
